@@ -122,17 +122,6 @@ import {
         ],
     },
     {
-        title: "Research Assistant",
-        company_name: "Singapore University of Technology and Design (SUTD)",
-        icon: sutd,
-        iconBg: "#FFFFFF",
-        date: "Jan 2024 - Present",
-        points: [
-        "Undergraduate Research project within the SHARP program, supervised by: Dr. Cyrille Pierre Joseph Jegourel",
-        "Currently contributing to the research and development of a machine learning algorithm for analysing Python code similarity and detecting AI-generated content, with benchmarking against established plagiarism detection tools.",
-        ],
-    },
-    {
         title: "Software Developer Intern",
         company_name: "Deloitte",
         icon: deloitte,

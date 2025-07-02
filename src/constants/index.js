@@ -1,20 +1,9 @@
+//@ts-check
 import {
     mobile,
     backend,
     creator,
     web,
-    reactjs,
-    tailwind,
-    git,
-    figma,
-    threejs,
-    python,
-    powerbi,
-    r,
-    java,
-    postgresql,
-    pandas,
-    chatgpt,
     deloitte,
     sutd,
     spf,
@@ -58,57 +47,6 @@ import {
     },
     ];
 
-    const technologies = [
-    {
-        name: "Python",
-        icon: python,
-    },
-    {
-        name: "PostgreSQL",
-        icon: postgresql,
-    },
-    {
-        name: "Pandas",
-        icon: pandas,
-    },
-    {
-        name: "R",
-        icon: r,
-    },
-    {
-        name: "Java",
-        icon: java,
-    },
-    {
-        name: "chatGPT",
-        icon: chatgpt,
-    },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
-        name: "git",
-        icon: git,
-    },  
-    {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "powerBI",
-        icon: powerbi,
-    },
-    ];
-    
     const experiences = [
     {
         title: "Research Assistant",
@@ -261,4 +199,4 @@ import {
     },
     ];
     
-    export { services, technologies, experiences, testimonials, projects };
+    export { services, experiences, testimonials, projects };

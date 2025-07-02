@@ -1,16 +1,16 @@
 //@ts-check
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     deloitte,
-    sutd,
     spf,
-    hungrysia,
     Articpy,
+    shopee,
+    agoda,
     HelloTT,
-    SHARP
+    SHARP,
+    sutd,
+    tradeguard,
+    flexhaven,
+    kolicalling,
     } from "../assets";
 
     export const navLinks = [
@@ -28,112 +28,99 @@ import {
     },
     ];
 
-    const services = [
-    {
-        title: "Software Engineer",
-        icon: web,
-    },
-    {
-        title: "Data Analyst",
-        icon: mobile,
-    },
-    {
-        title: "Research Assistant",
-        icon: backend,
-    },
-    {
-        title: "National Athlete",
-        icon: creator,
-    },
-    ];
 
     const experiences = [
     {
-        title: "Research Assistant",
-        company_name: "Singapore University of Technology and Design (SUTD)",
-        icon: sutd,
+        title: "Infra & Solution Engineer Intern",
+        company_name: "Shopee",
+        icon: shopee, // Replace with Shopee logo asset if available
         iconBg: "#FFFFFF",
-        date: "Jan 2024 - Present",
+        date: "Jun 2025 – Aug 2025",
         points: [
-        "Undergraduate Research project within the SHARP program, supervised by: Dr. Cyrille Pierre Joseph Jegourel",
-        "Currently contributing to the research and development of a machine learning algorithm for analysing Python code similarity and detecting AI-generated content, with benchmarking against established plagiarism detection tools.",
+        "Delivered ~$3M in annual savings by co-developing an MCP-based AI chatbot, automating ~20% of support workflows.",
+        "Analyzed IAM permissions across thousands of users to reinforce Zero-Trust cybersecurity posture and reduce critical access risk.",
         ],
     },
     {
-        title: "Research Assistant",
-        company_name: "Singapore University of Technology and Design (SUTD)",
-        icon: sutd,
+        title: "Full Stack Software Engineer Intern",
+        company_name: "Agoda",
+        icon: agoda, // Replace with Agoda logo if added
         iconBg: "#FFFFFF",
-        date: "Jan 2024 - Present",
+        date: "Sep 2024 – Jan 2025",
         points: [
-        "Undergraduate Research project within the SHARP program, supervised by: Dr. Cyrille Pierre Joseph Jegourel",
-        "Currently contributing to the research and development of a machine learning algorithm for analysing Python code similarity and detecting AI-generated content, with benchmarking against established plagiarism detection tools.",
+        "Generated ~$900K in value by deploying Generative AI (Copilot) and UX redesigns across Agoda’s CRM platform.",
+        "Built a Google Lens-style multilingual image translator, reducing global wait times by ~5% across 100K+ daily users.",
+        "Improved internal AI dev velocity by ~40% by leading evaluation and rollout of DSPy and LangChain firmwide.",
         ],
     },
     {
-        title: "Software Developer Intern",
+        title: "Risk Advisory Intern",
         company_name: "Deloitte",
         icon: deloitte,
         iconBg: "#000000",
-        date: "Aug 2023 - Jan 2024",
+        date: "Aug 2023 – Jan 2024",
         points: [
-        "Significantly contributed to developing a Power BI tutorial, enhancing data analytics proficiency within Deloitte’s SEA region",
-        "Key contributor in developing a Python-based Computer Aided Auditing Tool for an external client in Deloitte's public sector auditing project, streamlining workflow and significantly improving efficiency and accuracy.",
+        "Redesigned a financial audit tool (95% functional parity via UAT), accelerating compliance transformation for a public sector client.",
+        "Co-developed Power BI workshops and tutorials that scaled to 7+ SEA offices, raising analyst self-sufficiency by ~20%.",
         ],
     },
     {
-        title: "Software Developer",
-        company_name: "HungrySia (SUTD-Startup)",
-        icon: hungrysia,
-        iconBg: "#F75F61",
-        date: "Jun 2022 - Dec 2022",
-        points: [
-        "Developed a Python Telegram Bot from scratch to collect, group and process food orders, reducing student’s delivery costs.",
-        "The Telegram Bot was deployed on Heroku’s servers with Google Sheets integration to collect and process orders.",
-        ],
-    },
-    {
-        title: "Data Analyst",
-        company_name: "Singapore Police Force (SPF) - National Service",
+        title: "Data Analyst (National Service)",
+        company_name: "Singapore Police Force",
         icon: spf,
         iconBg: "#FFFFFF",
-        date: "Apr 2020 - Apr 2022",
+        date: "Jun 2020 – Mar 2022",
         points: [
-        "Conducted data analysis on IPPT and Marksmanship test statistics to track the KPI of operational readiness in the SPF.",
-        "Organised 100+ IPPT Sessions for NSmen. Oversaw funding approval, vendors coordination, in-person facilitation, and effectively communicated instructions to other divisions across SPF",
-        "As the top 5% (~3 officers) NSmen within the unit, awarded ‘Outstanding’ for Overall Performance and Conduct",
+        "Improved NSmen engagement by 15% via SAP-based analytics across 30K+ records, launching the ‘Buddy FIT’ initiative.",
+        "Led national coordination of 100+ IPPT sessions; oversaw budgets, vendor ops, and cross-division communications.",
         ],
     },
     ];
-    
-    const testimonials = [
-    {
-        testimonial:
-        "Jung Yi shines as a leader ... with his ability to inspire and motivate others, manage challenges, and thrive in pressure situations",
-        name: "Faith Lim",
-        designation: "Career Coach",
-        company: "SUTD",
-        image: "https://media.licdn.com/dms/image/D5603AQGdgwbaIGjeLg/profile-displayphoto-shrink_400_400/0/1709806021165?e=1715817600&v=beta&t=0ZtlYC1SWTw6lQFDDJ51Rj0mIEkvNGBN8fgaXRRmH8U",
-    },
-    {
-        testimonial:
-        "Not only is he proficient in his work but he has a positive mindset that motivates him to overcome the challenges that he has faced along the way",
-        name: "Tay Su Qing",
-        designation: "Senior Consultant",
-        company: "Deloitte",
-        image: "https://media.licdn.com/dms/image/C5603AQGrru_Q6SBakA/profile-displayphoto-shrink_400_400/0/1661997434445?e=1715817600&v=beta&t=9BKPccw82rzAjk0F02m41P7XSXaVaUnDrAMUDf8og94",
-    },
-    {
-        testimonial:
-        "Jung Yi communicates effectively with his superiors, colleagues and is sincerely committed towards his responsibilities.",
-        name: "Commander of Police National Service Department",
-        designation: "SAC",
-        company: "Singapore Police Force(SPF)",
-        image: "https://media.licdn.com/dms/image/C560BAQHi071FSi7txg/company-logo_200_200/0/1670988890447/singapore_police_force_logo?e=1718236800&v=beta&t=FBpSS7MgTa894EmwGalo7G5Hibg4H6A2Hrp2C-UDWOQ",
-    },
-    ];
+
     
     const projects = [
+    {
+        name: "AI Code Detection Research (Koli 2024)",
+        description:
+            "Co-authored a published ML paper at the 24th Koli Calling Conference, achieving >90% accuracy in distinguishing AI vs human-written Python code using BLEU & Fahrenberg distance metrics with hierarchical clustering. Research informs curriculum design and academic integrity frameworks amid GenAI rise.",
+        tags: [
+            { name: "Machine Learning", color: "blue-text-gradient" },
+            { name: "Clustering", color: "green-text-gradient" },
+            { name: "BLEU / NLP", color: "pink-text-gradient" },
+            { name: "Python", color: "orange-text-gradient" },
+            { name: "Research", color: "purple-text-gradient" }
+        ],
+        image: kolicalling, // e.g., aiPaperImage
+        source_code_link: "https://doi.org/10.1145/3699538.3699569" // ACM DOI
+    },
+    {
+    name: "TradeGuard - Integrated Trading System",
+    description:
+        "Designed and built a real-time trading operations platform with full-stack microservices architecture, enabling fast instrument search and live counterparty limit tracking. Reduced financial risk from over-trading by integrating SSE streaming, auth, and approval workflows.",
+    tags: [
+        { name: "Spring Boot", color: "green-text-gradient" },
+        { name: "React", color: "blue-text-gradient" },
+        { name: "MySQL", color: "orange-text-gradient" },
+        { name: "SSE", color: "pink-text-gradient" },
+        { name: "Microservices", color: "purple-text-gradient" },
+    ],
+    image: tradeguard, // e.g., tradingSystemImage
+    source_code_link: "https://github.com/Jungstershark/TradeGuard"
+    },
+    {
+        name: "Flexhaven – Student Rental Platform",
+        description:
+            "Developed a mobile MVP for a peer-to-peer rental platform targeting students and young professionals. Built with Firebase and Android (Java), the app enables item listings, rentals, and search — promoting sustainability and access for underbanked users.",
+        tags: [
+            { name: "Android", color: "green-text-gradient" },
+            { name: "Firebase", color: "blue-text-gradient" },
+            { name: "Java", color: "pink-text-gradient" },
+            { name: "UX Design", color: "orange-text-gradient" },
+        ],
+        image: flexhaven, // e.g., flexhavenImage
+        source_code_link: "https://github.com/Jungstershark/FlexHaven"
+    },
+
     {
         name: "SPF Coding Challenge 2021 ",
         description:
@@ -176,27 +163,41 @@ import {
         image: SHARP,
         source_code_link: "https://github.com/Jungstershark/SCLC-Modelling",
     },
-    {
-        name: "Hello TT Chatbot",
-        description:
-        "Developed an advanced chatbot for the TemasekxSUTD hackathon to enhance client support. Leveraged Language Models (LLMs) to analyze user screenshots, generating step-by-step troubleshooting guides with contextual images. The solution streamlined workflows, empowering users and showcasing technology's real-world potential.",
-        tags: [
-        {
-            name: "LLMs",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "Python",
-            color: "green-text-gradient",
-        },
-        {
-            name: "RAG Chatbot",
-            color: "pink-text-gradient",
-        },
-        ],
-        image: HelloTT,
-        source_code_link: "https://github.com/Jungstershark/HelloTT",
-    },
     ];
     
-    export { services, experiences, testimonials, projects };
+    const testimonials = [
+        {
+            testimonial:
+            "Jung Yi consistently exceeded expectations at Agoda — from scaling systems to pioneering GenAI applications. He's technically sharp, quick to improve with feedback, and brings energy to every team.",
+            name: "Ankit Tibrewal",
+            designation: "Engineering Manager",
+            company: "Agoda",
+            image: agoda,
+        },
+        {
+            testimonial:
+            "Jung Yi shines as a leader. He balances elite sport and academic excellence with humility, focus, and a sincere drive to grow. He’s also an open-minded, collaborative team player with immense potential.",
+            name: "Faith Lim",
+            designation: "Career Coach",
+            company: "SUTD",
+            image: sutd,
+        },
+        {
+            testimonial:
+            "Not only is Jung Yi proficient in his work, he carries a positive mindset that motivates him to overcome challenges. A reliable team member who strives for the most efficient, high-quality solutions.",
+            name: "Tay Su Qing",
+            designation: "Senior Consultant",
+            company: "Deloitte",
+            image: deloitte,
+        },
+        {
+            testimonial:
+            "Jung Yi is proactive, consistent, and thorough — he handles complex system transitions and high-volume tasks with professionalism. A disciplined, reliable team player who delivers every time.",
+            name: "SAC K Puvenesveran",
+            designation: "Commander, Police National Service Department",
+            company: "Singapore Police Force (SPF)",
+            image: spf,
+        },
+    ];
+
+    export { experiences, testimonials, projects };

@@ -10,10 +10,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import shopee from "./company/Shopee.png";
+import agoda from "./company/Agoda.jpg";
 import deloitte from "./company/Deloitte.png";
 import hungrysia from "./company/HungrySia.png";
 import sutd from "./company/SUTD.png";
@@ -25,6 +23,9 @@ import tripguide from "./tripguide.png";
 import Articpy from "./Articpy.png";
 import SHARP from "./SHARP.png";
 import HelloTT from "./HelloTT.png";
+import tradeguard from "./projects/TradeGuard.jpg";
+import flexhaven from "./projects/Flexhaven.png";
+import kolicalling from "./projects/KoliCalling.jpg";
 
 export {
   logo,
@@ -36,10 +37,8 @@ export {
   menu,
   close,
 
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  shopee,
+  agoda,
   deloitte,
   hungrysia,
   sutd,
@@ -51,6 +50,9 @@ export {
   HelloTT,
   Articpy,
   SHARP,
+  tradeguard,
+  flexhaven,
+  kolicalling,
 
   jy,
   headshot,

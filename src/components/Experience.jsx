@@ -33,9 +33,11 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='text-white font-bold text-[20px] sm:text-[22px] md:text-[24px]'>
+          {experience.title}
+        </h3>
         <p
-          className='text-secondary text-[16px] font-semibold'
+          className='text-secondary font-semibold text-[14px] sm:text-[15px] md:text-[16px]'
           style={{ margin: 0 }}
         >
           {experience.company_name}
@@ -46,7 +48,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
+            className='text-white-100 text-[13px] sm:text-[14px] tracking-wider pl-1'
           >
             {point}
           </li>
@@ -60,10 +62,14 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
+        <p
+          className={`${styles.sectionSubText} text-center text-[14px] sm:text-[16px]`}
+        >
           What I have done so far
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
+        <h2
+          className={`${styles.sectionHeadText} text-center text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px]`}
+        >
           Work Experience.
         </h2>
       </motion.div>
